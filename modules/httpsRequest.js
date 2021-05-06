@@ -3,7 +3,7 @@ const utility = require('./utility');
 const options = {
 	hostname: 'api.giphy.com',
 	port: 443,
-	path: '/v1/gifs/search?q=brilliant&limit=50&api_key=kEe5rNMLQnxXNIVfeMbruCM8kNC8dWo0',
+	path: '/v1/gifs/search?q=brilliant&limit=10&rating=g&api_key=kEe5rNMLQnxXNIVfeMbruCM8kNC8dWo0',
 	method: 'GET',
 }
 
@@ -19,8 +19,9 @@ const req = https.request(options, res => {
 	})
 
 	res.on('end', () => {
-		let preparedData = utility.sortData(JSON.parse(body).data, 'rating').slice(0, 10);
-		utility.saveData(JSON.stringify(preparedData));
+		Object.values(JSON.parse(body).data).forEach((el, index) => {
+			utility.saveGif(el.images.original.url, `${index + 1}`);
+		});
 		console.log('request completed...');
 	});
 })

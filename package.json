@@ -6,7 +6,11 @@
   "author": "Ivan Sakhnovskyi",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "pug": "^3.0.2"
+    "express": "4.17.1",
+    "got": "^11.8.2",
+    "pug": "3.0.2"
+  },
+  "scripts": {
+    "serve": "node index.js"
   }
 }

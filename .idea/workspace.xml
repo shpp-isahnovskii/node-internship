@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86225dea-9973-4534-b2ca-7c185a557545" name="Default Changelist" comment="" />
+    <list default="true" id="86225dea-9973-4534-b2ca-7c185a557545" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/httpsRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/httpsRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/utility.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/utility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rR5vnm7pYsPONtNrb9qaTz3cco" />
   <component name="ProjectViewState">
@@ -36,12 +65,32 @@
       <option name="presentableId" value="Default" />
       <updated>1618926294197</updated>
       <workItem from="1618926295236" duration="6075000" />
-      <workItem from="1618934571096" duration="26746000" />
+      <workItem from="1618934571096" duration="27275000" />
+      <workItem from="1618991978754" duration="7000" />
+      <workItem from="1619000475859" duration="754000" />
+      <workItem from="1619640000752" duration="3408000" />
+      <workItem from="1619681192589" duration="6012000" />
+      <workItem from="1620295047862" duration="6836000" />
+      <workItem from="1620307893543" duration="432000" />
+      <workItem from="1620309545671" duration="992000" />
+      <workItem from="1620310891302" duration="13611000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="541" y="108" key="#CSS" timestamp="1618960556774">
@@ -60,9 +109,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1618937995583" />
-    <state x="478" y="116" width="579" height="592" key="find.popup" timestamp="1618961483311">
+    <state x="74" y="73" width="1736" height="856" key="DiffContextDialog" timestamp="1620311138722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="116" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1618961483311" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619683154005" />
+    <state x="74" y="73" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1620311138722" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620308322690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619687997151" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620308322690" />
+    <state x="596" y="114" key="RollbackChangesDialog" timestamp="1620323395395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="596" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620323395395" />
+    <state x="2723" y="217" key="VCS.ChangeListViewerDialog" timestamp="1619682844951">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2723" y="217" key="VCS.ChangeListViewerDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619682844951" />
+    <state x="478" y="116" width="579" height="592" key="find.popup" timestamp="1620295268663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="116" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1620295268663" />
+    <state x="585" y="306" key="git4idea.ui.GitResetDialog" timestamp="1620302549057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="585" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824@0.0.1536.824" timestamp="1620302549057" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620330211632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620330211632" />
   </component>
 </project>

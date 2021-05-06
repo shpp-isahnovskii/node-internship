@@ -1,19 +1,19 @@
 const fs = require('fs');
+const stream = require('stream');
+const {promisify} = require('util');
+const got = require('got');
 
-module.exports.sortData = (data, param) => {
-	return data.sort((a,b) => {
-		if (a[param] > b[param]) {
-			return 1;
-		}
-		if (a[param] < b[param]) {
-			return -1;
-		}
-		return 0;
-	});
+
+function saveGif(data, name) {
+	const pipeline = promisify(stream.pipeline);
+	(async () => {
+		await pipeline(
+			got.stream(data),
+			fs.createWriteStream(`./gifs/${name}.gif`)
+		);
+	})();
 }
 
-module.exports.saveData = (data) => {
-	fs.writeFile('./gifs/file.json', data, 'utf8', (err) => {
-		if (err) throw err;
-	});
+module.exports = {
+	saveGif,
 }
