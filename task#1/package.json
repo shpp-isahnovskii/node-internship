@@ -1,0 +1,9 @@
+{
+  "name": "task_1",
+  "version": "1.0.0",
+  "description": "first task to the Node internship",
+  "main": "index.js",
+  "repository": "https://github.com/shpp-isahnovskii/node-internship.git",
+  "author": "Ivan",
+  "license": "MIT"
+}
