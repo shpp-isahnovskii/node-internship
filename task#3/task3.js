@@ -44,10 +44,9 @@ console.log(
 
 /*#4 */
 console.log(
-  '#2.4 Write a function that compares two objects.\nResult: ' +
-    arrToStr(['I', 'know', 'javascript', '!'])
-);
-// copy from Source: https://gist.github.com/nhatnx/3968895014876736ce1f020b8b0d8110
+  '#2.4 Write a function that compares two objects');
+// © copy from Source: https://gist.github.com/nhatnx/3968895014876736ce1f020b8b0d8110
+
 var isEqual = function (value, other) {
   // Get the value type
   var type = Object.prototype.toString.call(value);
