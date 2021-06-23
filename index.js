@@ -2,5 +2,5 @@
 //require('./task#2/task2.js');
 //require('./task#3/task3.js');
 //require('./task#4/task4.js');
-require('./task#5/task5.js');
-require('./task#6/task6.js');
+//require('./task#5/task5.js');
+require('./task#7/task7.js');
