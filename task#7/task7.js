@@ -20,10 +20,12 @@ NumericPromise(222)
 
 // 2)Rewrite as async/await pattern
 async function callApi() {
-  await fetch('https://api.github.com/orgs/nodejs') //some amazing endpoint
-    .then((resp) => resp.body)
+  await fetch('https://swapi.dev/api/films') //some amazing endpoint
+    .then((resp) => resp.json())
     .then((data) => {
-      //console.log(data);
+      Object.values(data.results).forEach((el) => {
+        console.log(el.title);
+      });
     })
     .catch((err) => {
       console.log(err);
